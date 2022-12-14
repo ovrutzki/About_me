@@ -1,0 +1,84 @@
+/* *{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+body{
+    background-color: #ec9a5c;
+}
+.name{
+    font-family: 'Faster One', cursive;
+    font-size: 70px;
+    color: rgb(171, 37, 37);
+}
+.photo1{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(88, 88, 88);
+    border-radius: 4px;
+    object-fit: contain;
+}
+.photo3 {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(90, 90, 90);
+    border-radius: 4px;
+    object-fit: contain;
+}
+.photo2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 4px;
+    object-fit: contain;
+}
+.town{
+    font-family: 'Rubik Gemstones', cursive;
+    color: blueviolet;
+    font-size: xx-large;
+}
+a:link {
+    color: rgb(255, 255, 255);
+}
+a:focus {
+    color:rgb(216, 22, 22);
+}
+a:hover{
+    color: chartreuse;
+}
+.food2 {
+    font-family: 'Rubik Gemstones', cursive;
+}
+.food3{
+    font-weight: bold;
+}
+
+.fruits {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+span{
+    color: blue;
+    text-decoration: underline;    
+}
+table {
+    border-collapse: collapse;
+
+  }
+  form{
+    text-align: center;
+}
+input:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+input{
+  background-color: rgb(10, 96, 245);
+  font: bolder;
+  color: white;
+  width: 300px;
+  border: 5px solid darkblue;
+  padding: 8px;
+  margin: 20px;
+  margin-left: 20px;
+}
+
