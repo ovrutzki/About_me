@@ -11,20 +11,27 @@
  </head>
 <body>
     <header>
-        <div id="places" class="top">Places I love</div>
-        <div  id="contact" class="top">Contact Me</div>
+        <div onclick="handleClick()" id="places" class="top">Places I love</div>
+        <div onclick="handleClick()" id="contact" class="top">Contact Me</div>
         <div id="title" class="top" >Welcome to Eran's website</div>
     </header>
-    <h1 class="name">  Eran Ovrutzki</h1>    
+  <div class="container">
+    <h1 class="name">  Eran Ovrutzki</h1>  <br><br>  
     <h2>I'm 28 years old and live in TLV.</h2>
     <p>Mama, put my <span>in</span> the ground <br>
-        I can't shoot them anymore <br>
-        That long black cloud is comin' down <br>
-        I feel like I'm knockin' on heaven's door</p><br>
-            <img class="photo1" src="/about_me1/assets/landscape.jpg" height="180" alt="landscape">
-            <img class="photo2" src="/about_me1/assets/arbel cliff.jpg" height="180" alt="different landscape">
-            <img class="photo3" src="/about_me1/assets/sea of galilee.jpg" height="180" alt="and another one">
-    <ol>
+        <div>
+            <p> I can't shoot them anymore <br>
+                That long black cloud is comin' down <br>
+                I feel like I'm knockin' on heaven's door</p><br></p>
+        </div>
+       <div class="photos">
+            <img class="image" src="/about_me1/assets/landscape.jpg" height="180" alt="landscape">
+            <img class="image middel" src="/about_me1/assets/arbel cliff.jpg" height="180" alt="different landscape">
+            <img class="image" src="/about_me1/assets/sea of galilee.jpg" height="180" alt="and another one">
+            <br><br>
+       </div>
+    <p>food that i love:</p><br>
+            <ol>
         <li>ice creame</li>
         <li class="food2">steak</li>
         <li class="food3">hamburger</li>
@@ -65,10 +72,12 @@
     </div>
     <form>
         <input type="submit" value="click to see more"/>
-    </form><br><br><br><br><br>
+    </form>
+</div>
     <footer>
         <p id="thanks" class="downer">thanks for visiting!</p>
         <p id="subscribe" class="downer">dont forget to subscribe</p>
     </footer>
+    <script src="/about_me1/main.js"></script>
 </body>
 </html>
