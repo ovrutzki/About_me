@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
  </head>
 <body>
-    <header>
-        <div onclick="delayedHandleClick()" id="places" class="top">Places I love</div>
-        <div onclick="delayedHandleClick()" id="contact" class="top">Contact Me</div>
+    <header id="header">
+        <div onclick="delayedHandleClick(this.id)" id="places" class="top">Places I love</div>
+        <div onclick="delayedHandleClick(this.id)" id="contact" class="top">Contact Me</div>
         <div id="title" class="top" >Welcome to Eran's website</div>
+        <div ><button id = "dark" class="top" value="off">dark/light mode</button></div>
     </header>
   <div class="container">
     <h1 class="name">  Eran Ovrutzki</h1>  <br><br>  
@@ -70,8 +71,9 @@
     <div class="day">
         <p>hello world! today is <span>Wendsday</span>.</p>
     </div>
-    <form>
-        <input type="submit" value="click to see more"/>
+    <form> 
+        <button class="footer-btn" type="submit" name="" id="test" value="">test</button> 
+        <button class="footer-btn" >click to see more</button>
     </form>
 </div>
     <footer>
