@@ -22,6 +22,18 @@ function changeToDark(){
     }
 }
 
+let food = ['ice creame', 'steak', 'hamburger', 'krembo'];
+function listMaker(array){
+    let food = '<p>food that i love:</p><ul class="foodList">'
+    for (let i = 0; i < array.length; i++) {
+        food += `<li class = "food">${array[i]}</li>`;
+        
+    }
+    food += '</ul>'
+    document.getElementById("listOfFood").outerHTML = food;
+    document.getElementById("listOfFood").setAttribute("class", "food")
+}
 
+listMaker(food);
 
 

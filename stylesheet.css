@@ -93,11 +93,13 @@ a:hover{
     color: chartreuse;
 }
 
-.food2 {
+.food:nth-child(2){
     font-family: 'Rubik Gemstones', cursive;
+    color: rgb(151, 82, 82);
 }
-.food3{
+.food:nth-child(3) {
     font-weight: bold;
+    color: rgb(90, 80, 80);
 }
 
 .fruits {
