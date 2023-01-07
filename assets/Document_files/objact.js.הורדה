@@ -1,0 +1,154 @@
+// EX 0
+
+// const restaurant = {
+//     name : 'Moon',
+//     address :'Bograshuv',
+//     city : 'Tel Aviv',
+//     state: 'Israel',
+//     zipcode : 698243
+// }
+
+// const student1 = {
+//     name: 'Eran',
+//     age: 28,
+//     grade: 10,
+//     classes:['Math', 'Physics', 'Computers'],
+// }
+// console.log(student1['name']);
+
+// const book1 = {
+//     title : 'The little prince',
+//     author : 'Antoine de saint',
+//     year : 1943,
+//     genre : 'kids',
+//     publisher : 'Reynal & hitchcook',
+//     pages : 98,
+// }
+
+// book1.rating=93;
+// console.log(book1);
+
+// const car = {
+//     make: "Tesla",
+//      model: "Model S",
+//      year: 2020,
+//      color: "Red",
+//      features: ["Autopilot", "Ludicrous Mode", "Supercharging"]
+//    };
+   
+
+//    console.log(car.features[1]);
+// ---------------------------------------------------
+//    4
+// const store = {
+//     storeName : 'AM-PM',
+//     lacation : 'bugrshov',
+//     categorise : ['Fresh', 'Dairy', 'Sweets', 'Drinks'],
+//     products : [
+//         {Productname : 'lemone', price : 5, quantity : 10},
+//         {Productname : 'apples', price : 3, quantity : 15},
+//         {Productname : 'milk', price : 6, quantity : 5}
+//     ],
+
+//     totalPrice : function(product){
+//         let price = store.products.find(item=>item.Productname===product).price;
+//         let quantity = store.products.find(item=>item.Productname===product).quantity;
+//         return quantity * price;
+//     }
+// }
+// console.log(store.totalPrice('apples'));
+
+// EX 1 ---------------------------------------
+// 1 + 2
+// const person1 = {
+//     name : 'bob',
+//     age : 19,
+//     height : 180
+// }
+
+// function list(person) {
+//     console.log(Object.values(person));
+//     console.log(Object.keys(person).length)
+// }
+// list(person1);
+ 
+// 3
+// let client = "Betty";
+
+// const groceries = {
+//     fruits : ["pear", "apple", "banana"],
+//     vegetables: ["tomatoes", "cucumber", "salad"],
+//     totalPrice : "35$",
+//     other : {
+//         paid : false,
+//         meansOfPayment : ["cash", "creditCard"]
+//     }
+// }
+
+// // function displayGroceries(){
+// //     console.log(groceries.fruits)
+// // }
+// // displayGroceries()
+
+// function cloneGroceries(){
+//     let user = client;
+//     let shopping = groceries;
+// }
+
+// EX 2
+// -------------------------------------------------
+// 1
+// let library = [
+//     {title : 'Nice one', author : 'Bob', alreadyRead : false},
+//     {title : 'the yellow dog', author : 'David', alreadyRead : true},
+//     {title : 'Blue & blue', author : 'Naomi', alreadyRead : true},
+// ]
+// for (let i = 0; i < library.length; i++) {
+//     if (library[i].alreadyRead) {
+//         console.log(`You already read ${library[i].title} by ${library[i].author}`); 
+//     } else {
+//         console.log(`You still need to read ${library[i].title} by ${library[i].author}`); 
+
+//     }
+    
+// }
+// EX 3
+// -------------------------------------------------
+// 1
+const  FictionalPenguins = {
+    character : 'roy and silo',
+    origin : 'And Tango Makes Three',
+    author : 'Peter Parnell'
+}
+console.log(`Hello, I'm a penguin and my name is ${FictionalPenguins.character}`);
+FictionalPenguins.canFly = false;
+FictionalPenguins.chrip = function() {
+    console.log('CHIRP CHIRP! Is this what penguins sound like?');
+}
+// 6
+FictionalPenguins.sayHello = function() {
+    console.log(`Hello, I'm a penguin and my name is ${FictionalPenguins.character}`);
+}
+// console.log(FictionalPenguins);
+FictionalPenguins.sayHello();
+// 7
+FictionalPenguins.character =  "Penguin McPenguinFace";
+FictionalPenguins.sayHello();
+// 8
+FictionalPenguins.fly = function (){
+    if (FictionalPenguins.canFly) {
+       console.log('I can fly'); 
+    } else {
+        console.log('no fly for me');
+    }
+}
+FictionalPenguins.fly();
+
+FictionalPenguins.test = function(){
+    for (let i = 0; i < Object.length; i++) {
+        console.log('hello');
+        
+    }
+}
+
+test(FictionalPenguins);
